@@ -8,8 +8,8 @@ public class Books extends CatalogElements {
     public String author;
 
     public Books (String title, int numberOfPage, int ISBN, int pubblicationDate, BookGenre bookGenre, String author){
-       super(title,numberOfPage,ISBN,pubblicationDate);
-       this.bookGenre= bookGenre;
+        super(title,numberOfPage,ISBN,pubblicationDate);
+        this.bookGenre= bookGenre;
         this.author= author;
     }
 
